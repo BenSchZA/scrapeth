@@ -21,7 +21,7 @@ config :example, ExampleWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "GDfhPu29ZU0xorkCWh4TcdGKGVNEtK/AbDz6GB0zEhqzEWKq6xUrC7UKmNsIPQLY",
   render_errors: [view: ExampleWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Example.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub: [name: Example.PubSub, adapter: Phoenix.PubSub.PG2],
   live_view: [
      signing_salt: "AtLq86+3Rzo8/Du50+uUd6frCcZkCu5m"
   ]
