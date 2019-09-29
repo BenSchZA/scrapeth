@@ -77,7 +77,6 @@ defmodule ExampleWeb.ScanLive do
             reason
         end
       end
-      # String.match?("123", ~r/^[[:alnum:]]+$/)
     end
   end
 
