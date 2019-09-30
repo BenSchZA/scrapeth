@@ -1,4 +1,14 @@
-# Example
+# ScrapEth
+
+An application, and in future perhaps an API, to scrape repositories for Ethereum smart contract addresses. This is partly an exercise in learning Elixir/Phoenix, and partly useful when performing security audits of Ethereum dapps - these addresses will be listed with links to block explorers and other analytics.
+
+## Roadmap
+
+0. Scrape GitHub repos
+1. Scrape website Javascript code
+2. Scrape other sources
+
+## Development
 
 To start your Phoenix server:
 
@@ -11,7 +21,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Learn more
+## Phoenix framework
 
   * Official website: http://www.phoenixframework.org/
   * Guides: https://hexdocs.pm/phoenix/overview.html
