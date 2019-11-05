@@ -2,6 +2,8 @@
 
 An application, and in future perhaps an API, to scrape repositories for Ethereum smart contract addresses. This is partly an exercise in learning Elixir/Phoenix, and partly useful when performing security audits of Ethereum dapps - these addresses will be listed with links to block explorers and other analytics.
 
+For now (may be more permanent in future) see https://kawapi.io/scan and try `ProteaNetwork/protea-gather`.
+
 ## Roadmap
 
 0. Scrape GitHub repos
